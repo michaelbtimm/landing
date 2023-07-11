@@ -4,6 +4,13 @@
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
 
+/* Custom designs */
+@import url(components/banner.css);
+@import url(components/buttons.css);
+@import url(components/cards.css);
+@import url(components/container.css);
+@import url(components/footer.css);
+
 /* Utilities */
 body {
   margin: 0;
@@ -16,70 +23,4 @@ h1, h2, h3, h4 {
 
 a {
   text-decoration: none;
-}
-
-/* Banner! */
-
-.banner {
-  background-image: url(https://lewagon.github.io/landing-page-challenge/images/background.png);
-  background-size: cover;
-  background-position: center;
-  padding: 200px 0;
-  margin-bottom: 30px;
-}
-
-.banner > .container {
-  width: 900px;
-  margin: auto;
-  color: white;
-}
-
-.container > .h1 {
-  font-size: 16px;
-}
-
-.apply-button {
-  background-color: #1EDD88;
-  padding: 16px 36px;
-  border-radius: 50px;
-  text-decoration: none;
-  color: white;
-  display: inline-block
-}
-
-/* Content! */
-
-.cards {
-	display: flex;
-	justify-content:space-around;
-	margin-bottom: 30px;
-	flex-wrap: wrap;
-  width: 900px;
-}
-
-.card {
-  width: 200px;
-  border-radius: 3px;
-  box-shadow: 0 0 5px rgb(230,230,230);
-  text-align: center;
-  padding: 20px;
-  border: 1px solid rgb(230,230,230);
-  margin-top: 30px;
-}
-
-.card p {
-  opacity: 0.5;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  vertical-align: bottom;
-}
-
-.card h4 {
-  margin-top: 22px;
-  margin-bottom: 22px;
-  vertical-align: middle;
-}
-
-.text-center {
-  text-align: center;
 }
